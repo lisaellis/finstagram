@@ -16,14 +16,45 @@ main {
     margin-bottom: 48px;
 }
 
-.header {
-    margin-left: 10px;
-}
-
 .finstagram-post .user-info img {
     border-radius: 50%;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+}
+
+.title {
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.title:hover {
+    color: lightsalmon;
+    transition: color 0.2s;
+}
+
+a.photo {
+    transition: padding 0.5s;
+}
+
+a.photo:hover {
+    padding: 10px;
+}
+
+img.user-info-photo:hover {
+    padding: 2px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+nav p{
+    padding-right: 10px;
 }
